@@ -1,0 +1,13 @@
+<div class="card mb-3" *ngFor="let item of shoppingItems">
+  <div class="row g-0">
+    <div class="col-md-4 d-flex align-items-center justify-content-center">
+      <span class="fs-1">{{ item.quantity }}</span>
+    </div>
+    <div class="col-md-8">
+      <div class="card-body">
+        <h5 class="card-title">{{ item.name }}</h5>
+        <p class="card-text">Available in stock</p>
+      </div>
+    </div>
+  </div>
+</div>
